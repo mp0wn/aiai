@@ -22,7 +22,7 @@ title_template = PromptTemplate(
 )
 
 # Create an instance of OpenAI
-llm = OpenAI(temperature=0.9)
+llm = OpenAI(temperature=1.0)
 
 # Create a chain for processing the prompt
 title_chain = LLMChain(llm=llm, prompt=title_template, verbose=True)
