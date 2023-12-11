@@ -1,4 +1,5 @@
 openai
-langchain[all]
+tiktoken
+langchain
 streamlit
-python_version == 3.11.4
+python_version == 3.11
