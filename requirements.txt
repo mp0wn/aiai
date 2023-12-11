@@ -1,3 +1,4 @@
 openai
 langchain
 streamlit
+python=3.11.4
